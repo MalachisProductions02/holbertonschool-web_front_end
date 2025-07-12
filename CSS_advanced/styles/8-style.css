@@ -19,6 +19,10 @@
 
     --font-weight-regular: 400;
     --font-weight-bold: 700;
+
+    --line-height-small: 1.2;
+    --line-height-base: 1.5;
+    --line-height-big: 1.8;
 }
 
 html {
@@ -27,10 +31,11 @@ html {
 }
 
 body {
-    color: var(--text-color);
-    font-family: var(--font-family-base);
+    font-weight: var(--font-weight-regular);
     font-size: var(--font-size-medium);
-    font-weight: var(--font-wight-regular);
+    font-family: var(--font-family-base);
+    color: var(--text-color);
+    line-height: var(--line-height-base);
 }
 
 a {

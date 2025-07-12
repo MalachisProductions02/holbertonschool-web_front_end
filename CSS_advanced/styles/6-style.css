@@ -28,7 +28,7 @@ body {
     color: var(--text-color);
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
-    font-wight: var(--font-wight-regular);
+    font-weight: var(--font-wight-regular);
 }
 
 a {
