@@ -155,10 +155,6 @@ nav .nav-link {
     position: relative;
 }
 
-nav .nav-link:hover {
-    color: var(--nav-item-link-hover);
-}
-
 a {
     color: var(--text-color);
     text-decoration: none;
