@@ -67,7 +67,18 @@ body {
     line-height: var(--line-height-base);
 }
 
+.navbar-menu {
+    float: right;
+}
+
 nav {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
     margin: 0;
     padding: 0;
 }
@@ -88,13 +99,6 @@ nav .nav-link {
 
 nav .nav-link:hover {
     color: var(--nav-item-link-hover);
-}
-
-nav ul {
-    list-style: none;
-    text-align: center;
-    margin: 0;
-    padding: 0;
 }
 
 a {
