@@ -108,6 +108,12 @@ body {
     background-color: var(--button-hover-background);
 }
 
+nav .nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    position: relative;
+}
+
 nav .nav-link::before {
     content: "";
     position: absolute;
@@ -116,11 +122,16 @@ nav .nav-link::before {
     background-color: var(--color-white);
     width: 0;
     height: 0.2rem;
+    transition: width 0.3s ease;
 }
 
 nav .nav-item:hover .nav-link::before {
     background-color: var(--color-primary);
     width: 100%;
+}
+
+nav .nav-link:hover {
+    color: var(--nav-item-link-hover);
 }
 
 .navbar-menu {
@@ -146,16 +157,6 @@ nav .nav-item {
     letter-spacing: var(--nav-item-letter-spacing);
     display: var(--nav-item-display);
     margin: var(--nav-item-margin);
-}
-
-nav .nav-link:hover {
-    color: var(--nav-item-link-hover);
-}
-
-nav .nav-link {
-    display: block;
-    padding: 0.5rem 1rem;
-    position: relative;
 }
 
 a {
@@ -352,3 +353,4 @@ h1, h2, h3, h4, h5, h6 {
     background-color: var(--color-black);
     --button-color: var(--color-white);
 }
+
